@@ -108,3 +108,34 @@ main {
 #form > div:first-child > article > p:first-child {
   margin-bottom: 1rem;
 }
+#form > div:nth-child(2) {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem 2rem;
+}
+#form > div:nth-child(2) > h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+#form > div:nth-child(2) > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 55%;
+}
+#form > div:nth-child(2) > div > div {
+}
+#form label {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #0000009e;
+}
+#form input {
+  width: 90%;
+  display: block;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
